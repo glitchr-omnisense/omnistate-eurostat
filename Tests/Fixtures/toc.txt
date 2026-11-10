@@ -1,0 +1,12 @@
+"title"	"code"	"type"	"last update of data"	"last table structure change"	"data start"	"data end"	"values"
+"                Harmonised index of consumer prices - monthly data"	"ei_cphi_m"	"table"	"04.11.2026"	"04.11.2026"	"1996-01"	"2026-10"	1054518
+"                Gross domestic product (GDP) and main components (output, expenditure and income) - annual data"	"nama_10_gdp"	"dataset"	"05.11.2026"	"20.10.2026"	"1975"	"2025"	1087944
+"                    Gross domestic product (GDP) and main components (output, expenditure and income) - annual data"	"nama_10_gdp"	"dataset"	"05.11.2026"	"20.10.2026"	"1975"	"2025"	1087944
+"            Harmonised index of consumer prices (HICP)"	"prc_hicp"	"folder"	" "	" "	" "	" "	
+"                        Harmonised index of consumer prices - monthly data"	"ei_cphi_m"	"table"	"04.11.2026"	"04.11.2026"	"1996-01"	"2026-10"	1054518
+"                    HICP - monthly data (index) (1996-2025)"	"prc_hicp_midx"	"dataset"	"06.02.2026"	"07.01.2026"	"1996-01"	"2025-12"	7699058
+"                    HICP - monthly data (annual rate of change) (1997-2025)"	"prc_hicp_manr"	"dataset"	"06.02.2026"	"07.01.2026"	"1997-01"	"2025-12"	3511040
+"                    Population on 1 January"	"tps00001"	"table"	"27.10.2026"	"30.09.2026"	"2015"	"2026"	581
+"                        Unemployment by sex and age - monthly data"	"une_rt_m"	"dataset"	"05.11.2026"	"05.11.2026"	"1983-01"	"2026-10"	759687
+"                    HICP - monthly data (index) (1996-2025)"	"prc_hicp_midx"	"dataset"	"06.02.2026"	"07.01.2026"	"1996-01"	"2025-12"	7699058
+"                    HICP - monthly data (index) (1996-2025)"	"prc_hicp_midx"	"dataset"	"06.02.2026"	"07.01.2026"	"1996-01"	"2025-12"	7699058

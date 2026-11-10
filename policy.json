@@ -1,0 +1,39 @@
+{
+    "$schema": "https://github.com/glitchr-omnisense/contracts/blob/1.x/resources/usage-policy.schema.json",
+    "provider": "eurostat",
+    "rateLimits": null,
+    "rights": {
+        "commercial": "allowed",
+        "openSourceRequired": false,
+        "caching": {
+            "permission": "allowed",
+            "maxTtl": null
+        },
+        "storage": "allowed",
+        "redistribution": "allowed",
+        "attribution": {
+            "required": true,
+            "text": "Source: Eurostat",
+            "url": "https://ec.europa.eu/eurostat/help/copyright-notice",
+            "where": [
+                "source"
+            ]
+        },
+        "licence": "CC-BY-4.0"
+    },
+    "requirements": {
+        "key": false,
+        "userAgent": {
+            "required": false,
+            "pattern": null
+        }
+    },
+    "provenance": {
+        "terms": "https://ec.europa.eu/eurostat/help/copyright-notice",
+        "policy": "https://ec.europa.eu/eurostat/web/user-guides/data-browser/api-data-access/api-detailed-guidelines/api-statistics",
+        "verifiedAt": "2026-11-10",
+        "declaredBy": "maintainer",
+        "contact": null,
+        "notes": "Read on 2026-11-10. The copyright notice: Eurostat's content is under CC BY 4.0, re-use allowed \"provided you acknowledge the source and indicate any changes you have made\"; \"Reuse of statistical data, metadata [...] for commercial or non-commercial purposes is authorised provided the source is acknowledged\"; third-party material excepted. The API guide (API Statistics) states no rate limit nor quota: rateLimits unknown. A large extraction may be answered asynchronously (a JSON warning with status 413, ASYNCHRONOUS_RESPONSE: ask again later). The brief's \"DOI + date\" citation: Series::$credit gives the dataset's DOI (https://doi.org/10.2908/<CODE>, in each answer's annotations) and the access date."
+    }
+}

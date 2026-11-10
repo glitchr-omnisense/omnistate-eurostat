@@ -1,0 +1,23 @@
+{
+    "name": "omnistate/eurostat",
+    "type": "library",
+    "description": "Omnistate Eurostat: European statistics from Eurostat's dissemination API (JSON-stat 2.0, no key) - a dataset's series by its filters, its flags (provisional, estimated, break), the catalogue searched.",
+    "keywords": ["eurostat", "json-stat", "sdmx", "statistics", "hicp", "inflation", "gdp", "eu", "omnistate"],
+    "homepage": "https://github.com/glitchr-omnisense/omnistate-eurostat",
+    "license": "MIT",
+    "authors": [{"name": "Marco Meyer", "email": "marco.meyer@glitchr.io"}],
+    "require": {
+        "php": ">=8.2",
+        "omnisense/contracts": "^1.0@dev",
+        "omnisense/omnistate": "^1.0@dev",
+        "symfony/http-client": "^6.4|^7.0|^8.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.1",
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {"psr-4": {"Omnistate\\Eurostat\\": ""}, "exclude-from-classmap": ["/Tests/"]},
+    "autoload-dev": {"psr-4": {"Omnistate\\Eurostat\\Tests\\": "Tests/"}},
+    "extra": {"branch-alias": {"dev-1.x": "1.x-dev"}, "omnisense": {"policy": "policy.json"}},
+    "config": {"sort-packages": true}
+}

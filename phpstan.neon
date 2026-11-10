@@ -1,0 +1,11 @@
+# PHPStan at the highest level. phpstan-baseline.neon is empty: nothing is accepted.
+includes:
+    - phpstan-baseline.neon
+
+parameters:
+    level: max
+    paths:
+        - .
+    excludePaths:
+        - vendor (?)
+        - docker (?)
