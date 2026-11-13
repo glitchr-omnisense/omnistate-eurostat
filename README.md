@@ -14,6 +14,14 @@ $hicp->credit;            // "Eurostat, prc_hicp_manr (https://doi.org/10.2908/P
 No framework needed: the package requires `omnisense/omnistate`, `omnisense/contracts` and
 `symfony/http-client`.
 
+## Install
+
+```sh
+composer require omnistate/eurostat
+```
+
+It brings the family's core, `omnisense/omnistate`, and `omnisense/contracts` with it. No account and no key: Eurostat's API is open ([`policy.json`](policy.json)).
+
 ## Usage policy
 
 `policy.json`, read on 2026-11-10: no limit stated (unknown), reuse allowed for commercial and
